@@ -1,0 +1,21 @@
+#pragma once
+#include "../windissect_forwards.h"
+
+// Reconstructed from WindowsInternal.ComposableShell.Experiences.SuggestionUIUndocked.dll by Windissect. 4 member(s).
+class tson {
+public:
+    class input_archive;
+    class output_archive;
+    class read_buffer;
+    class write_buffer;
+public /*unspecified*/:
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?load_nothrow@tson@@YAXAEAVinput_archive@1@AEAUtest_flag@tip2@@@Z
+    void load_nothrow(WindissectOpaque &, ::tip2::test_flag &);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?make_string_tag@tson@@YA?AUstring_tag@1@PEB_W@Z
+    WindissectOpaque make_string_tag(wchar_t const *);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?save_nothrow@tson@@YAXAEAVoutput_archive@1@AEAUtest_flag@tip2@@@Z
+    void save_nothrow(WindissectOpaque &, ::tip2::test_flag &);
+};
